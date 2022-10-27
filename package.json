@@ -1,7 +1,7 @@
 {
-  "name": "Geilodoggo vs Floggo",
+  "name": "GeilodoggoVsFloggo",
   "version": "0.0.1",
-  "author": "TeamLifestylePerfecter",
+  "author": "Ionic Framework",
   "homepage": "https://www.twitch.tv/lifestyleperfecter",
   "scripts": {
     "ng": "ng",
