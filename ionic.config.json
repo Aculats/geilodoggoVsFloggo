@@ -1,0 +1,7 @@
+{
+  "name": "termineplannerapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
