@@ -11,4 +11,27 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {}
 
+  gotoStoryModus(): void {
+
+  }
+
+  gotoTrophyRoom(): void {
+
+  }
+
+  gotoMiniGames(): void {
+
+  }
+
+  gotoDailyQuest(): void {
+
+  }
+
+  gotoCharacter(): void {
+
+  }
+
+  gotoNews(): void {
+
+  }
 }
