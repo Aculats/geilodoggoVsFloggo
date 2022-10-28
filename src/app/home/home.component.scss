@@ -1,32 +1,52 @@
-.button-group{
-    margin-top: 25%;
-  }
+.parent{
+  margin-top: 25%;
+  margin-left: 5%;
+  height: 50%;
+}
   
 .button  {
-    text-align: center;
-    display: block;
-    margin-top: 1% !important;
-    margin: auto;
-    z-index: 5;
+  margin-top: 0.5%;
+  width: 40%;
+  height: 40%;  
+  margin-left: 7%;
   }
 
 .backgroundImage {
-  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
   position: absolute;
-  z-index: 1;
-  background-image: url("../../assets/images/Layout_Bild_Hintergrund_Karte.png");
+  z-index: 0;
+  overflow: hidden;
 }
 
 .imageRightCorner {
-  background-image: url("../../assets/images/Layout_Ornament_Ecke_Oben_Rechts.png");
   position: absolute;
-  z-index: 2;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
   overflow: hidden;
+  max-width: 30%;  
+  max-height: 30%;
 }
 
 .imageLeftCorner {
-  background-image: url("../../assets/images/Layout_Ornament_Ecke_Oben_Links.png");
   position: absolute;
-  z-index: 2;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
   overflow: hidden;
+  max-width: 30%;  
+  max-height: 30%;
 }
+
+.picturenotdrag {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+
