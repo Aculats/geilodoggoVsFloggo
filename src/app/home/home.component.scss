@@ -11,6 +11,7 @@
   width: 42%;
   height: -1%;  
   margin-left: 7%;
+  z-index: 5;
   }
 
 .buttonmargin {
@@ -58,4 +59,23 @@
 
 .displaypostition {
   orientation: landscape;
+}
+
+.backgroundcircle {
+  z-index: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.circle {
+  z-index: 1;
+  position: absolute;
+  overflow: hidden;
+}
+
+.circleposition {
+  top: 30%;
+  right: 5%;
+  max-width: 50%;  
+  max-height: 50%;
 }
