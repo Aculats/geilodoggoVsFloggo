@@ -22,5 +22,4 @@ export class LoginComponent implements OnInit {
   openDiscord(): void {
     open("https://discord.com/invite/D6rXPPV562");
   }
-
 }

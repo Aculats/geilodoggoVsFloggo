@@ -7,4 +7,26 @@
     display: block;
     margin-top: 1% !important;
     margin: auto;
+    z-index: 5;
   }
+
+.backgroundImage {
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  background-image: url("../../assets/images/Layout_Bild_Hintergrund_Karte.png");
+}
+
+.imageRightCorner {
+  background-image: url("../../assets/images/Layout_Ornament_Ecke_Oben_Rechts.png");
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.imageLeftCorner {
+  background-image: url("../../assets/images/Layout_Ornament_Ecke_Oben_Links.png");
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+}
