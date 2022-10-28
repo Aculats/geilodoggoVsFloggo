@@ -17,7 +17,6 @@ import { NewsComponent } from './news/news.component';
 import { StorymodeComponent } from './storymode/storymode.component';
 import { TrophyroomComponent } from './trophyroom/trophyroom.component';
 
-
 @NgModule({
   declarations: [		
     AppComponent,
