@@ -1,3 +1,18 @@
-<p>
-  home works!
-</p>
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Hauptmenü
+        </ion-title>
+    </ion-toolbar>
+        </ion-header>
+    <ion-content [fullscreen]="true">
+    <div class="button-group">
+      <ion-button  id="storymodus" text="Story Modus" (click)="gotoStoryModus()" class="button">Story Modus</ion-button>
+      <ion-button  id="trophyroom" text="Trophy Room" (click)="gotoTrophyRoom()" class="button">Trophy Room</ion-button>
+      <ion-button  id="minigames" text="Mini Games" (click)="gotoMiniGames()" class="button">Mini Games</ion-button>
+      <ion-button  id="dailyquest" text="Daily Quest" (click)="gotoDailyQuest()" class="button">Daily Quest</ion-button>
+      <ion-button  id="character" text="Character/Home" (click)="gotoCharacter()" class="button">Charakter/Home</ion-button>
+      <ion-button  id="news" text="News/Shop" (click)="gotoNews()" class="button">News/Shop</ion-button>
+    </div>
+</ion-content>
+  
