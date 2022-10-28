@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {}
 
   gotoStoryModus(): void {
-    this.router.navigate(['story']);
+    this.router.navigate(['storymode']);
   }
 
   gotoTrophyRoom(): void {
