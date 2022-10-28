@@ -1,19 +1,20 @@
 
-
-<img class="backgroundImage picturenotdrag" src="../../assets/images/Layout_Bild_Hintergrund_Karte.png">
-<img class="imageLeftCorner picturenotdrag" src="../../assets/images/Layout_Ornament_Ecke_Oben_Links.png">
-<img class="imageRightCorner picturenotdrag" src="../../assets/images/Layout_Ornament_Ecke_Oben_Rechts.png">
-<div class="parent">
-    <div class="button">
-        <ion-button  id="storymodus" text="Story Modus" (click)="gotoStoryModus()" class="button">Story Modus</ion-button>
-        <ion-button  id="trophyroom" text="Trophy Room" (click)="gotoTrophyRoom()" class="button">Trophy Room</ion-button>
+<body class="displaypostition">
+    <img class="backgroundImage picturenotdrag" src="../../assets/images/Layout_Bild_Hintergrund_Karte.png">
+    <img class="imageLeftCorner picturenotdrag" src="../../assets/images/Layout_Ornament_Ecke_Oben_Links.png">
+    <img class="imageRightCorner picturenotdrag" src="../../assets/images/Layout_Ornament_Ecke_Oben_Rechts.png">
+    <div class="parent">
+        <div class="frame">
+            <ion-button  id="storymodus" text="Story Modus" (click)="gotoStoryModus()" class="button">Story Modus</ion-button>
+            <ion-button  id="trophyroom" text="Trophy Room" (click)="gotoTrophyRoom()" class="button buttonmargin">Trophy Room</ion-button>
+        </div>
+        <div  class="frame">
+            <ion-button  id="dailyquest" text="Daily Quest" (click)="gotoDailyQuest()" class="button">Daily Quest</ion-button>
+            <ion-button  id="minigames" text="Mini Games" (click)="gotoMiniGames()" class="button buttonmargin">Mini Games</ion-button>
+        </div>
+        <div  class="frame">
+            <ion-button  id="character" text="Character/Home" (click)="gotoCharacter()" class="button">Charakter/Home</ion-button>
+            <ion-button  id="news" text="News/Shop" (click)="gotoNews()" class="button buttonmargin">News/Shop</ion-button>
+        </div>
     </div>
-    <div  class="button">
-        <ion-button  id="dailyquest" text="Daily Quest" (click)="gotoDailyQuest()" class="button">Daily Quest</ion-button>
-        <ion-button  id="minigames" text="Mini Games" (click)="gotoMiniGames()" class="button">Mini Games</ion-button>
-    </div>
-    <div  class="button">
-        <ion-button  id="character" text="Character/Home" (click)="gotoCharacter()" class="button">Charakter/Home</ion-button>
-        <ion-button  id="news" text="News/Shop" (click)="gotoNews()" class="button">News/Shop</ion-button>
-    </div>
-</div>
+</body>
